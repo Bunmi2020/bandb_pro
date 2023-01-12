@@ -1,0 +1,196 @@
+.about {
+    box-sizing: border-box;
+    
+    padding: 2%;
+    width: 100%;
+    margin: 0%;
+   
+    display: block;
+    background-image:  linear-gradient(#ffffff 40%, #642061 );
+    
+    }
+
+    .about-heading {
+        /* How it works? */
+        width: 129px;
+        height: 36px;
+        background: #262c710d;
+        padding: 1%;
+        border-radius: 10px;
+        
+        /* Header/3 */
+        
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+        
+        
+        /* primary/blue */
+        
+        color: #262C71;
+    
+    margin: auto;
+    
+    
+      }
+
+    .App-about {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-height: 600px;
+        width: 80%;
+        margin-top: 10%;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding: 2%;
+    }
+    
+  
+    @media (max-width: 1005px) {
+        .App-about { 
+            margin: auto;
+            display: block;
+            
+            
+        }
+
+        .App-about-text {
+           
+            margin: auto;
+           
+        }
+
+        .App-about-text p {
+           
+            margin: auto;
+            text-align: left;
+            width: 300px;
+            
+        }
+
+    .App-about-image {
+       
+            margin: auto;
+            
+    }
+
+    .App-about-image img {
+        width: 300px;
+    }
+
+    }
+    
+    
+    .App-about-text {
+    min-height: 530px;
+     display: block;
+    
+      max-width: 350px;
+      text-align: left;
+      display: block;
+     
+      margin: auto;
+      
+    
+      
+    }
+   
+    .App-about-image {
+        margin: auto;
+       
+    }
+
+    
+    .App-about-text h3 {
+      
+        width: 302px;
+        height: 96px;
+        
+       
+        text-align: left;
+        /* primary/black */
+        
+        color: #161924;
+    
+    }
+    
+    h3 .h-red {
+      color: red;
+    }
+    
+    .App-about-text p{
+        
+       
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    text-align: left;
+    
+    /* black/shade 1 */
+    
+    color: #121212;
+    
+    }
+    
+    .App-about-text button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 32px;
+        gap: 10px;
+        position: relative;
+        width: 132px;
+        height: 44px;
+        
+        /* primary/red */
+        
+        background: #DC2326;
+        border-radius: 8px;
+    
+    }
+    
+    .App-about-text a {
+      text-decoration: none;
+      width: 68px;
+    height: 24px;
+    
+    /* button text */
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* white/shade 1 */
+    
+    color: #FFFFFF;
+    }
+    
+
+
+
+    .App-about p {
+        color: #000000;
+        padding-top: 3vw;
+        font-size: 20px;
+      }
+   
+  
+     
+      
+  

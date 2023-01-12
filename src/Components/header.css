@@ -1,0 +1,185 @@
+
+.App-header {
+    
+    max-height: 15vw;
+    width: 100%;
+    display: block;
+    background: #642061;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+   
+    
+  }
+
+
+  .mobile-menu-button {
+    display: none;
+  }
+
+
+  @media (max-width: 650px) {
+
+    .App-header {
+      position: fixed;
+      top:0%;
+      z-index: 9;
+      
+    }
+
+    .mobile-menu-button {
+      display: flex;
+      flex-direction: row;
+    
+    margin: auto 0%;
+    gap: 5vw;
+    flex-wrap: no-wrap;
+    height: 24px;
+    margin-left: auto;
+    margin-right: 2%;
+    background: none;
+
+    }
+
+    .App-menu .desktop-menu {
+      display: none;
+    }
+
+
+
+  }
+
+   .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    top: 8vmax;
+    position: absolute;
+
+    gap: 20px;
+    text-align: left;
+    flex-wrap: no-wrap;
+    padding: 10px;
+    
+    width: 100%;
+    background: #f7f7f7;
+      }
+
+      .App-header .mobile-menu a {
+        cursor: pointer;
+        color: #121212;
+        text-decoration: none;
+        list-style: none;
+      }
+
+      
+      .App-header .mobile-menu li {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        margin: 5%;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+        
+        text-align: left;
+        list-style: none;
+      }
+
+      .App-menu .desktop-menu link{
+    cursor: pointer;
+    color: #fffefe;
+    text-decoration: none;
+    
+  }
+
+  .App-header a {
+    color: #fcf7f7;
+    text-decoration: none;
+  }
+  
+  
+  
+  .App-nav {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding:  10px;
+   
+    top: 0%;
+    margin: 0% 15%;
+    max-height: 15vw;
+   
+   
+    }
+  
+    .App-logo {
+      
+    top: 0%;
+    /* Inside auto layout */
+    margin: auto 0%;
+    
+    }
+  
+    
+    .App-logo img {
+      min-width: 5vw;
+      max-width: 7vw;
+   
+    
+    }
+  
+    .App-menu, .desktop-menu {
+    display: flex;
+    flex-direction: row;
+  
+  margin: auto 0%;
+  gap: 5vw;
+  flex-wrap: no-wrap;
+  height: 24px;
+  margin-left: auto;
+  margin-right: 2%;
+  
+  /* Inside auto layout */
+  
+  
+    }
+
+ 
+    
+  
+   .App-menu .desktop-menu li {
+  position: relative;
+  left: 2.04%;
+  right: 2.04%;
+  top: 0%;
+  bottom: 0%;
+  display: flex;
+  width: 100px;
+  
+  /* body text */
+  
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3vw;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  
+  text-align: center;
+  
+  /* black/shade 1 */
+  
+  color: #121212;
+  }
+
+  @media (max-width: 1050px) {
+   .App-menu .desktop-menu li {
+      font-size: 1.6vw;
+    }
+  }
+
+  @media (max-width: 770px) {
+   .App-menu .desktop-menu li {
+      font-size: 1.7vw;
+    }
+  }
+
+  

@@ -1,0 +1,171 @@
+.footer {
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 48px 0px 0px 0px;
+gap: 14px;
+margin: auto;
+justify-content: center;
+width: 100%;
+
+opacity: 0.9;
+/* primary/blue */
+
+background: #262C71;
+
+}
+
+.footer-menu Link, .footer-menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-conclusion {
+    display: flex;
+    position: relative;
+flex-direction: column;
+align-items: center;
+padding: auto;
+gap: 22px;
+
+width: 80%;
+
+
+}
+
+.footer-conclusion p {
+   
+
+
+text-align: center;
+
+/* white/shade 1 */
+
+color: #FFFFFF;
+}
+
+ 
+    .footer-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 44px;
+        flex-wrap: wrap;
+        width: 80%;
+        
+        list-style: none;
+        position: relative;
+     
+    }
+
+    .footer-menu li {
+        
+height: 26px;
+
+width: 94px;
+
+display: flex;
+align-items: center;
+
+/* Whites/plain white */
+
+color: #FFFFFF;
+
+    }
+
+
+    .divider {
+        
+height: 1px;
+width: 60%;
+position: relative;
+background: #FFFFFF;
+opacity: 0.1;
+margin: auto;
+
+
+
+    }
+
+    .footer-socials {
+        display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+padding: 24px 0px;
+flex-wrap: wrap;
+width: 80%;
+margin: auto;
+
+
+
+    }
+
+    .copyrights {
+
+width: 290px;
+height: 26px;
+margin: auto 0px;
+gap: 24px;
+padding: auto;
+
+/* Whites/plain white */
+
+color: #FFFFFF;
+
+
+    }
+
+
+    .socials {
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 168px;
+height: 24px;
+
+
+
+    }
+
+    .socials img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-phrase {
+display: block;
+align-items: center;
+padding: 24px 0px;
+margin: auto;
+
+height: 74px;
+
+
+    }
+
+    .footer-phrase p {
+    
+height: 26px;
+margin: auto;
+
+
+/* identical to box height, or 160% */
+
+
+color: #ffffff99;
+    }
+
+    @media (max-width: 650px) {
+        .socials {
+            padding: 2px;
+            margin: auto;
+         }
+    }
